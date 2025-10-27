@@ -1,0 +1,41 @@
+.glass-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.385);
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.judul, h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.385);
+    margin: 20px auto;
+    width: fit-content;
+}
+.isi, p {
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 1.6;
+    padding: 15px 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.385);
+    margin: 20px auto;
+    width: fit-content;
+    text-align-last: center;
+    text-align: justify;
+}
