@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
     var btnChar = document.querySelector('.btn');
     if (btnChar) {
         btnChar.addEventListener('click', function() {
-            window.location.replace("../html/select-character.html");
+            window.location.replace("select-character.html");
         });
     }
     var btnBack = document.querySelector('.btn-back');
     if (btnBack) {
         btnBack.addEventListener('click', function() {
-            window.location.replace("../html/index.html");
+            window.location.replace("index.html");
         });
     }
 });
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (charItem) {
         charItem.addEventListener('click', function(event) {
             event.preventDefault();
-            window.location.replace("../html/character-detail.html");
+            window.location.replace("character-detail.html");
         });
     }
 });
